@@ -13,4 +13,4 @@ export const EditPostsSchema = z.object({
     content: z.string().min(1).max(280),
     token: z.string(),
     idToEdit: z.string().min(1)
-})
+}).transform(data => data as EditPostsInputDTO)

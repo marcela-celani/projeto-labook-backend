@@ -22,7 +22,7 @@ DROP TABLE users;
 
 CREATE TABLE posts (
     id TEXT PRIMARY KEY UNIQUE NOT NULL,
-    creator_id TEXT UNIQUE NOT NULL,
+    creator_id TEXT NOT NULL,
     content TEXT NOT NULL, 
     likes INTEGER DEFAULT (0) NOT NULL,
     dislikes INTEGER DEFAULT (0) NOT NULL,

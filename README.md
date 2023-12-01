@@ -1,7 +1,7 @@
 # Projeto Labook
 O Labook é uma rede social com o objetivo de promover a conexão e interação entre pessoas. Quem se cadastrar no aplicativo poderá criar e curtir publicações.
 
-## Documentação da API - Postman: [link](https://documenter.getpostman.com/view/28315168/2s9YeHbWXc)
+### Documentação da API - Postman: [link](https://documenter.getpostman.com/view/28315168/2s9YeHbWXc)
 
 <hr>
 
